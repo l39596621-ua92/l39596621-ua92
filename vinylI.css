@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.vinyl-cover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.vinyl-details {
+    margin-top: 20px;
+}
+.vinyl-details h2 {
+    margin-bottom: 10px;
+}
+.vinyl-details p {
+    margin: 5px 0;
+}
+.navbar {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 30px 20px;
+    min-height: 70px;
+    border-bottom: grey 3px solid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    background: #fff;
+    color: #333;
+}
+
+#about h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#about p {
+    line-height: 1.6em;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
